@@ -28,9 +28,9 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
     solution
 }
 
-#[cfg(test)]
 mod tests {
-    use super::*;
+    #[allow(unused_imports)]
+    use super::two_sum;
 
     #[test]
     fn test_two_sums() {
